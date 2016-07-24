@@ -35,9 +35,12 @@ h4 {
     padding: 1vh 2vh;
 }
 button {
+    margin: 1vh 0 !important;
     padding: 1vh 5vh;
     background-color: mediumblue;
     color: white !important;
     border-radius: 1vh;
-
+}
+.score {
+    margin: 2vh 0 !important;
 }
