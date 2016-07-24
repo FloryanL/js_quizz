@@ -5,6 +5,10 @@
 
 
 //exo
+/*
+var meteo = "pluie";
+var meteo = "soleil";
+*/
 /*var meteo = "brumeux";
 
 if (meteo === "pluie") {
