@@ -8,7 +8,7 @@
 //background-color : red; = mauvais réponse & background-color : green; = bonne réponse
 
 $(document).ready(function() {
-    $("#Question").hide();
+    $("#Question, #Question2").hide();
 });
 $(document).ready(function(){
     $(".buttonext").on('click', function() {
