@@ -8,10 +8,11 @@
 //background-color : red; = mauvais réponse & background-color : green; = bonne réponse
 
 $(document).ready(function() {
-    $("#Question, #Question2").hide();
+    $("#Question2, #Question3, #Question4, #Question5, #Question6, #Question7, #Question8, #Question9, #Question10").hide();
 });
 $(document).ready(function(){
     $(".buttonext").on('click', function() {
-        $("#Question").show() && $("#Question1").hide();
+        $("#Question2").show() && $("#Question1").hide();
+        
     })
 });
