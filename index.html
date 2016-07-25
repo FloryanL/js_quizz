@@ -7,8 +7,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Irish+Grover|Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <script src="bootstrap/js/jquery-2.2.2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>    
+    <script src="bootstrap/js/script.js"></script>
 </head>
 
 <body>
@@ -50,9 +51,9 @@
         </div>
 
         <!-- bouton next -->
-        <div class="row">
+        <div class="row" id="Question">
             <div class="col-md-5 col-xs-2"></div>
-            <button type="button" class="col-md-2 col-xs-8">Suivant</button>
+            <button type="button" class="col-md-2 col-xs-8" id="buttonext">Suivant</button>
             <div class="col-md-5 col-xs-2"></div>
         </div>
 
@@ -437,9 +438,8 @@
             <button type="button" class="col-md-2 col-xs-8 score">Score</button>
             <div class="col-md-5 col-xs-2"></div>
         </div>
-
-
     </div>
+    
 </body>
 
 </html>
