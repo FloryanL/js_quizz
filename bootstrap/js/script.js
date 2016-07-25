@@ -12,7 +12,6 @@ $(document).ready(function() {
 });
 $(document).ready(function(){
     $(".buttonext").on('click', function() {
-        $("#Question2").show() && $("#Question1").hide();
-        
+        $("#Question2").show(1000) && $("#Question1").hide();
     })
 });
