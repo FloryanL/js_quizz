@@ -17,7 +17,7 @@ $(document).ready(function() {
     })
     $(".buttonprev").click( function() {
         $("#Question1").fadeIn() && $("#Question2").hide();
-    })
+    })/*
     $(".buttonext").on('click', function() {
         $("#Question3").fadeIn(1000) && $("#Question2").hide();
     })
@@ -65,10 +65,10 @@ $(document).ready(function() {
     })
     $(".buttonprev").click( function() {
         $("#Question9").fadeIn() && $("#Question10").hide();
-    })
+    })*/
 
     //reponse correct
-    $("p.reponse").css(".reponsetrue");
+    //$("p.reponse").css(".reponsetrue");
 });
     
     
