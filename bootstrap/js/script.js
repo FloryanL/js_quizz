@@ -3,8 +3,6 @@
 $(document).ready(function() {
     $("#Question2, #Question3, #Question4, #Question5, #Question6, #Question7, #Question8, #Question9, #Question10").hide();
 
-    //il faudrait optimiser ces lignes de code
-
     //faire en sorte que mon bouton "next" affiche ma 2ème question mais aussi cache la 1ère
     $(".buttonext").on('click', function() {
         $("#Question2").fadeIn(1000) && $("#Question1").hide();
@@ -68,6 +66,12 @@ $(document).ready(function() {
     $(".false").click( function() {
         $(this).css("background-color", "red");
     })    
+
+    //compter le score 
+/*    $(".score").click( function() {
+        var length = $('.true > *').length;
+        alert(length);
+    })*/
     
 });
    
