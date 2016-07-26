@@ -14,4 +14,8 @@ $(document).ready(function(){
     $(".buttonext").on('click', function() {
         $("#Question2").show(1000) && $("#Question1").hide();
     })
+    $('.buttonprev').click( function() {
+        $("#Question1").show() && $("#Question2").hide();
+    })
+    
 });
